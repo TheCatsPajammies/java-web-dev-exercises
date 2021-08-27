@@ -2,7 +2,7 @@ package org.launchcode.java.studios.areaofacircle;
 import java.util.*;
 
 public class Area {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
@@ -30,4 +30,3 @@ public class Area {
 
 }
 // Test Comment.
-
