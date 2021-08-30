@@ -13,7 +13,7 @@ public class Area {
             String str = input.nextLine();
 
             try {
-                radius = Double.valueOf(str);
+                radius = Double.parseDouble(str);
                 // Converts the input value to a double.
             } catch (NumberFormatException e) {
                 // If the input value can't be converted to a double, the value of radius is reset to 0, an
